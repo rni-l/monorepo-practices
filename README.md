@@ -7,5 +7,7 @@
 ### Lerna
 
 1. [快速开始](./example/lerna/quickStart)
+2. [优化项目体积](./example/lerna/optimizeSize)
+3. [模拟业务项目配置](./example/lerna/business)
 
 ### Turborepo
