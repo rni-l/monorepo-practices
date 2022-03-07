@@ -16,16 +16,14 @@
 2. Vue3
 3. TypeScript
 4. Scss
-5. Jest
+5. Jest - ViteJS2 未支持
 6. Lerna
-7. Pinia
 
 工具链：
 
 1. husky
 2. Eslint
 3. Lint-Stage
-4. CHANGELOG
 
 项目包：
 
@@ -238,6 +236,18 @@ npm i lint-staged -D
   },
 }
 ```
+
+修改 `.husky/pre-commit`
+
+```shell
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run lint-staged
+
+```
+
+
 
 配置 git commit lint：
 

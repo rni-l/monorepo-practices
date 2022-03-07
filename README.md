@@ -9,5 +9,6 @@
 1. [快速开始](./example/lerna/quickStart)
 2. [优化项目体积](./example/lerna/optimizeSize)
 3. [模拟业务项目配置](./example/lerna/business)
+4. [插件](./example/lerna/plugins)
 
 ### Turborepo
