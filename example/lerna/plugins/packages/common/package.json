@@ -1,6 +1,6 @@
 {
-  "name": "common",
-  "version": "0.0.0",
+  "name": "@ddd2/common",
+  "version": "0.5.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "yiiouo <15625979610@163.com>",
@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rni-l/monorepo-practices.git"
@@ -29,5 +26,10 @@
   "homepage": "https://github.com/rni-l/monorepo-practices#readme",
   "dependencies": {
     "typescript": "^4.5.4"
+  },
+  "gitHead": "489b319a275102a629a791ca16c8a69b51df585b",
+  "devDependencies": {
+    "vite": "^2.9.1",
+    "vitest": "^0.9.3"
   }
 }

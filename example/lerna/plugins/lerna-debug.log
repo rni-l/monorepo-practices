@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: '@vue/test-utils@nextclear'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/ddd/D/project/monorepo-practices/example/lerna/plugins
+3 error @vue/test-utils: No matching version found for @vue/test-utils@nextclear.
+3 error     at module.exports (/Users/ddd/D/project/monorepo-practices/example/lerna/plugins/node_modules/npm-pick-manifest/index.js:209:23)
