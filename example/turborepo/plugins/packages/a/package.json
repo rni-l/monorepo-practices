@@ -1,0 +1,25 @@
+{
+  "name": "@ddd2/a",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest --run"
+  },
+  "dependencies": {
+    "@ddd2/common": "^1.0.0",
+    "vue": "^3.2.32"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.17.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "jsdom": "^19.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.1",
+    "vitest": "^0.9.3",
+    "vue-tsc": "^0.34.6"
+  },
+  "gitHead": "489b319a275102a629a791ca16c8a69b51df585b"
+}
