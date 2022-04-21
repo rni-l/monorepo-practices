@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "business",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore --fix packages",
@@ -8,7 +8,8 @@
     "lint-staged": "lint-staged -v",
     "style-lint": "stylelint \"**/*.{css,scss,sass,vue}\" --cache --fix",
     "commit-lint": "commitlint  --edit $1 -o -c",
-    "build": "lerna run build"
+    "dev": "turbo run dev",
+    "build": "turbo run build"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
@@ -20,7 +21,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.5.0",
     "husky": "^7.0.0",
-    "lerna": "^4.0.0",
     "lint-staged": "^12.3.4",
     "postcss-html": "^1.3.0",
     "prettier": "^2.5.1",
@@ -28,7 +28,8 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-scss": "^5.0.2",
     "stylelint-config-recommended-vue": "^1.3.0",
-    "stylelint-config-standard": "^25.0.0"
+    "stylelint-config-standard": "^25.0.0",
+    "turbo": "^1.2.4"
   },
   "lint-staged": {
     "packages/**/.{vue,js,ts}": [
@@ -37,5 +38,11 @@
     "packages/**/*.{scss,css,vue}": [
       "npm run style-lint"
     ]
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.22.0"
   }
 }
